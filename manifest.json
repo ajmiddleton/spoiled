@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Spoiled",
+  "description": "This extension removes spoiler css from r/wow.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.reddit.com/r/wow*"],
+      "js": ["node_modules/jquery/dist/jquery.js", "remove_spoilers.js"]
+    }
+  ]
+}
