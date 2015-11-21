@@ -1,5 +1,9 @@
 (function(){
   $(document).ready(function(){
-    $(".linkflair-spoiler").removeClass("linkflair-spoiler");
+    function remove(){
+      $(".linkflair-spoiler").removeClass("linkflair-spoiler");
+      var timer = setTimeout(remove, 1000);
+    }
+    remove();
   })
 })();
