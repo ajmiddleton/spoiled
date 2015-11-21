@@ -3,7 +3,7 @@
 
   "name": "Spoiled",
   "description": "This extension removes spoiler css from r/wow.",
-  "version": "0.1.0",
+  "version": "0.1.1",
 
   "content_scripts": [
     {
