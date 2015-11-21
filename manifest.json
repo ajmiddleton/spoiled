@@ -8,7 +8,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.reddit.com/r/wow*"],
-      "js": ["node_modules/jquery/dist/jquery.js", "remove_spoilers.js"]
+      "js": ["jquery.js", "remove_spoilers.js"]
     }
   ]
 }
